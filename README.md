@@ -10,7 +10,7 @@
 - 🧠 Completed AI/ML course from **ISRO IIRS**
 - 🛠 Tools: `Python`, `Java`, `C`, `Git`, `Linux`, `OpenCV`, `MongoDB`, `Node.js`
 - 💬 Ask me about: `Machine Learning`, `Speech-to-Text`, `Design Patterns in Python`
-- 📫 Reach me: [chetangadhiya4939@gmail.com](mailto:chetangadhiya4939@gmail.com)
+- 📫 Reach me: [chetangadhiya4939@gmail.com](mailto:chetuex1gen536@gmail.com)
 
 ---
 
