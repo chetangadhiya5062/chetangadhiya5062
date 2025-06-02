@@ -36,9 +36,11 @@
 
 ### 🧠 LeetCode Stats
 
+
 <p align="center">
-  <img src=<img src="https://leetcard.jacoblin.cool/chetangadhiya5062?ext=contest&theme=dark" />
+  <img src="https://leetcard.jacoblin.cool/chetangadhiya4939" alt="LeetCode Stats" />
 </p>
+
 
 ---
 
