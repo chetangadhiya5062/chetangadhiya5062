@@ -34,6 +34,14 @@
 
 ---
 
+### 🧠 LeetCode Stats
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/chetangadhiya4939" alt="LeetCode Stats" />
+</p>
+
+---
+
 ### 🌐 Connect with Me
 
 <p align="left">
