@@ -19,7 +19,7 @@ export function projectCard(theme, p) {
   d.text(p.kicker.toUpperCase(), { font: "mono", size: 10, x: 22, y: 32, fill: t.lime, ls: 1.2 });
   d.text(p.name, { font: "displayM", size: 25, x: 22, y: 66, fill: t.ink });
 
-  wrap(p.oneLiner.replace(/s*→s*/g, " to "), "displayM", 13, 330).slice(0, 3).forEach((line, i) => d.text(line, { font: "displayM", size: 13, x: 22, y: 92 + i * 18, fill: t.muted }));
+  wrap(p.oneLiner.replace(/\s*→\s*/g, " to "), "displayM", 13, 330).slice(0, 3).forEach((line, i) => d.text(line, { font: "displayM", size: 13, x: 22, y: 92 + i * 18, fill: t.muted }));
 
   // stack chips
   let cx = 22;
