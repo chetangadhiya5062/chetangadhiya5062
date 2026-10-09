@@ -32,7 +32,7 @@ console.log(`feed via ${via}, generated ${feed.generatedAt}`);
 let changed = 0;
 for (const theme of Object.values(THEMES)) {
   const n = theme.name;
-  changed += out(`assets/hero-${n}.svg`, hero(theme, { status: feed.profile.status, openToWork: feed.profile.openToWork }));
+  changed += out(`assets/hero-${n}.svg`, hero(theme, feed));
   changed += out(`assets/experience-${n}.svg`, experience(theme, S.experience));
   changed += out(`assets/stats-${n}.svg`, stats(theme, feed));
   changed += out(`assets/skills-${n}.svg`, skills(theme, S.skills));

@@ -1,4 +1,4 @@
-import { ANIM_CSS, Doc, measure, r1 } from "./svg.mjs";
+import { ANIM_CSS, Doc, countFrames, measure, r1 } from "./svg.mjs";
 
 const level = (n) => (n === 0 ? 0 : n <= 2 ? 1 : n <= 5 ? 2 : n <= 9 ? 3 : 4);
 const OPACITY = [0, 0.28, 0.52, 0.76, 1]; // same scale as the portfolio heatmap
@@ -25,8 +25,14 @@ export function stats(theme, feed) {
   const start = new Date(days[0].date + "T00:00:00Z").getUTCDay();
   const cols = Math.ceil((days.length + start) / 7);
   const seen = [];
+  let openCol = -1;
   days.forEach((x, i) => {
     const col = Math.floor((i + start) / 7), row = (i + start) % 7, lv = level(x.github + x.leetcode + x.medium + x.posts);
+    if (col !== openCol) {
+      if (openCol >= 0) d.raw("</g>");
+      d.raw(`<g class="pop" style="--i:${(col * 0.4).toFixed(1)};--d:.3s">`);
+      openCol = col;
+    }
     d.raw(`<rect class="k l${lv}" x="${X0 + col * STEP}" y="${Y0 + row * STEP}"/>`);
     const m = x.date.slice(0, 7);
     if (!seen.includes(m) && row < 7) {
@@ -38,7 +44,11 @@ export function stats(theme, feed) {
       }
     }
   });
+  d.raw("</g>");
   const hmW = cols * STEP;
+  // a faint "scan" band sweeps the heatmap, like data moving through the layer
+  d.defs.push(`<linearGradient id="scanfade" x1="0" x2="1"><stop offset="0" stop-color="${t.lime}" stop-opacity="0"/><stop offset="1" stop-color="${t.lime}" stop-opacity="${t.name === "dark" ? 0.22 : 0.3}"/></linearGradient><clipPath id="hmclip"><rect x="${X0 - 4}" y="${Y0 - 4}" width="${hmW + 4}" height="${7 * STEP + 4}" rx="6"/></clipPath>`);
+  d.raw(`<g clip-path="url(#hmclip)"><rect class="scan" style="--w:${hmW}px" x="${X0 - 4}" y="${Y0 - 4}" width="70" height="${7 * STEP + 4}" fill="url(#scanfade)"/></g>`);
   // legend
   const ly = Y0 + 7 * STEP + 22;
   d.text("less", { font: "mono", size: 10, x: X0, y: ly + 9, fill: t.muted });
@@ -66,15 +76,17 @@ export function stats(theme, feed) {
   nums.forEach((n, i) => {
     const x = NX + (i % 2) * colW, y = 86 + Math.floor(i / 2) * 128;
     d.text(n.sub.toUpperCase(), { font: "mono", size: 10, x, y, fill: t.lime, ls: 1.4 });
-    d.text(String(n.v), { font: "displayB", size: 54, x, y: y + 52, fill: t.ink });
+    countFrames(n.v).forEach((val, k, arr) =>
+      d.text(String(val), { font: "displayB", size: 54, x, y: y + 52, fill: t.ink, attr: `class="fr${k === arr.length - 1 ? " end" : ""}" style="--i:${k};--d:${(0.5 + i * 0.15).toFixed(2)}s"` }),
+    );
     d.text(n.label, { font: "mono", size: 11, x, y: y + 72, fill: t.muted });
     if (n.bar) {
       const total = Math.max(1, s.leetcodeEasy + s.leetcodeMedium + s.leetcodeHard);
       const bw = colW - 28;
-      let bx = x;
+      let bx = x, bi = 0;
       [[s.leetcodeEasy, t.cyan, 0.55], [s.leetcodeMedium, t.lime, 0.75], [s.leetcodeHard, t.lime, 1]].forEach(([c, col, op]) => {
         const w = Math.max(2, (c / total) * bw);
-        d.raw(`<rect x="${r1(bx)}" y="${y + 82}" width="${r1(w - 2)}" height="5" rx="2.5" fill="${col}" fill-opacity="${op}"/>`);
+        d.raw(`<rect class="grow" style="--i:${bi++};--d:1s" x="${r1(bx)}" y="${y + 82}" width="${r1(w - 2)}" height="5" rx="2.5" fill="${col}" fill-opacity="${op}"/>`);
         bx += w;
       });
       d.text(`${s.leetcodeEasy} E · ${s.leetcodeMedium} M · ${s.leetcodeHard} H`, { font: "mono", size: 10, x, y: y + 102, fill: t.muted });

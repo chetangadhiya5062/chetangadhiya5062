@@ -13,16 +13,18 @@ export function skills(theme, groups) {
 
   groups.forEach((g, i) => {
     const y = 28 + i * ROW + 24;
+    d.raw(`<g class="rise" style="--i:${i};--d:.2s">`);
     if (i) d.raw(`<path d="M24,${y - 27}H${W - 24}" stroke="${t.line}"/>`);
     d.text(g.layer, { font: "mono", size: 12, x: 28, y, fill: t.lime });
     d.text(g.label, { font: "displayM", size: 17, x: 66, y: y + 1, fill: t.ink });
     let x = 280;
     g.skills.forEach((s, k) => {
-      d.raw(`<circle cx="${x + 2}" cy="${y - 4}" r="2" fill="${t.line === "#1c2230" ? "#2a3347" : "#b1bac4"}"/>`);
+      d.raw(`<circle class="tw" style="--i:${i * 3 + k}" cx="${x + 2}" cy="${y - 4}" r="2" fill="${t.line === "#1c2230" ? "#2a3347" : "#b1bac4"}"/>`);
       x += 12 + d.text(s, { font: "mono", size: 12, x: x + 12, y, fill: t.muted }) + 14;
     });
     // depth bar: deeper layers are darker, like the site's rail
     d.raw(`<rect x="${W - 36}" y="${y - 12}" width="6" height="14" rx="3" fill="${t.lime}" fill-opacity="${r1(1 - i * 0.14)}"/>`);
+    d.raw("</g>");
   });
   return d.toString();
 }
