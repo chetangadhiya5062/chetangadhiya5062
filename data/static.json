@@ -1,0 +1,247 @@
+{
+  "person": {
+    "name": "Chetan Gadhiya",
+    "headline": "AI Engineer",
+    "tagline": "GenAI & Agentic Systems · LLMs · RAG · Multi-Agent",
+    "location": "Gandhinagar, Gujarat, India",
+    "email": "chetan.certi.001@gmail.com",
+    "links": {
+      "github": "https://github.com/chetangadhiya5062",
+      "linkedin": "https://www.linkedin.com/in/chetan-gadhiya-4923a6284",
+      "leetcode": "https://leetcode.com/u/chetangadhiya4939/",
+      "medium": "https://medium.com/@ChetanGadhiy017",
+      "x": "https://x.com/chetan_gadhiya7"
+    },
+    "openTo": "AI Engineer / ML Engineer / GenAI Engineer roles",
+    "site": "https://chetangadhiya.vercel.app"
+  },
+  "about": [
+    "I engineer AI systems designed to run in production, not just perform well in a demo.",
+    "At HNNOIX's NeuroFlow AI — a production-grade AI Operating Platform supporting autonomous agents, RAG and knowledge graphs at enterprise scale — I built core infrastructure: a provider-agnostic LLM Gateway, RAG Runtime, AI Memory Layer and modular agent-execution runtimes, following Clean Architecture and SOLID with structured observability, automated testing and containerized deployment.",
+    "Before that, as a freelance GenAI engineer, I built two AI systems for automated fact verification and knowledge-grounded QA. On the side I build things I'm curious about — an RL agent that teaches itself to clean data, and an autonomous email agent on a Kafka/Spark pipeline.",
+    "I'm looking for roles where I can keep building systems that hold up outside a notebook."
+  ],
+  "experience": [
+    {
+      "id": "encode",
+      "start": "2024-09",
+      "period": "Sep 2024 – Apr 2026",
+      "title": [
+        "AI-ML Committee",
+        "Member"
+      ],
+      "org": "Encode PDEU",
+      "skills": [
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "repo": null
+    },
+    {
+      "id": "freelance",
+      "start": "2024-12",
+      "period": "Dec 2024 – Jun 2025",
+      "title": [
+        "Freelance",
+        "GenAI Engineer"
+      ],
+      "org": "Independent",
+      "skills": [
+        "CrewAI",
+        "Gemini",
+        "Pydantic",
+        "FastAPI",
+        "AWS Bedrock",
+        "RAG",
+        "Multi-Agent Systems"
+      ],
+      "repo": null
+    },
+    {
+      "id": "cognifyz",
+      "start": "2024-12",
+      "period": "Dec 2024 – Jan 2025",
+      "title": [
+        "Python Development",
+        "Intern"
+      ],
+      "org": "Cognifyz Technologies",
+      "skills": [
+        "Python",
+        "SQL",
+        "Git/GitHub"
+      ],
+      "repo": "https://github.com/chetangadhiya5062/Cognifyz_Internship"
+    },
+    {
+      "id": "hnnoix",
+      "start": "2026-05",
+      "period": "May 2026 – Jul 2026",
+      "title": [
+        "Research & Innovation",
+        "Intern"
+      ],
+      "org": "HNNOIX · NeuroFlow AI",
+      "skills": [
+        "LLMs",
+        "RAG",
+        "AI Agents",
+        "FastAPI",
+        "Docker",
+        "Python"
+      ],
+      "repo": "https://github.com/chetangadhiya5062/NeuroFlow-AI"
+    }
+  ],
+  "projects": [
+    {
+      "index": 1,
+      "slug": "openenv",
+      "name": "OpenEnv",
+      "kicker": "Reinforcement learning · LLM agents",
+      "repo": "chetangadhiya5062/open-env-nuclei",
+      "oneLiner": "A custom RL environment where a Llama 3 agent autonomously cleans tabular data.",
+      "stack": [
+        "Python",
+        "Llama 3",
+        "Reinforcement Learning",
+        "Pydantic"
+      ],
+      "metric": {
+        "value": "+5 / +3 / +2",
+        "label": "reward shaping"
+      },
+      "url": "https://github.com/chetangadhiya5062/open-env-nuclei",
+      "caseStudy": "https://chetangadhiya.vercel.app/projects/openenv"
+    },
+    {
+      "index": 2,
+      "slug": "aethermail",
+      "name": "AetherMail",
+      "kicker": "Agents · RAG · Streaming data",
+      "repo": "chetangadhiya5062/autonomous_mail",
+      "oneLiner": "A stateful LangGraph agent that reads, reasons over and acts on email, backed by a Kafka → Spark pipeline.",
+      "stack": [
+        "LangGraph",
+        "Gemini",
+        "Qdrant",
+        "Ollama"
+      ],
+      "metric": {
+        "value": "768-d",
+        "label": "embeddings · 6 agent tools"
+      },
+      "url": "https://github.com/chetangadhiya5062/autonomous_mail",
+      "caseStudy": "https://chetangadhiya.vercel.app/projects/aethermail"
+    },
+    {
+      "index": 3,
+      "slug": "neuroflow-ai",
+      "name": "NeuroFlow AI",
+      "kicker": "Platform engineering · HNNOIX",
+      "repo": "chetangadhiya5062/NeuroFlow-AI",
+      "oneLiner": "A domain-agnostic AI Operating Platform for autonomous agents, RAG, workflows and knowledge systems.",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "Clean Architecture",
+        "Docker"
+      ],
+      "metric": {
+        "value": "6 layers",
+        "label": "clean architecture"
+      },
+      "url": "https://github.com/chetangadhiya5062/NeuroFlow-AI",
+      "caseStudy": "https://chetangadhiya.vercel.app/projects/neuroflow-ai"
+    },
+    {
+      "index": 4,
+      "slug": "truth-ai",
+      "name": "Truth AI",
+      "kicker": "Multi-agent · GenAI Exchange Hackathon",
+      "repo": "chetangadhiya5062/misinformation_ai",
+      "oneLiner": "CrewAI multi-agent fact-checking with web research, structured verdicts and citations (team 'AI Gyani').",
+      "stack": [
+        "CrewAI",
+        "Gemini",
+        "SerperDev",
+        "Pydantic"
+      ],
+      "metric": {
+        "value": "−15%",
+        "label": "inference overhead"
+      },
+      "url": "https://github.com/chetangadhiya5062/misinformation_ai",
+      "caseStudy": "https://chetangadhiya.vercel.app/projects/truth-ai"
+    }
+  ],
+  "skills": [
+    {
+      "layer": "L1",
+      "label": "AI / ML",
+      "skills": [
+        "Machine Learning",
+        "Deep Learning",
+        "Reinforcement Learning",
+        "NLP",
+        "LLMs",
+        "RAG"
+      ]
+    },
+    {
+      "layer": "L2",
+      "label": "GenAI & Agentic",
+      "skills": [
+        "Multi-Agent Systems",
+        "AI Agents",
+        "CrewAI",
+        "LangGraph",
+        "Gemini",
+        "Llama 3",
+        "AWS Bedrock",
+        "OpenRouter"
+      ]
+    },
+    {
+      "layer": "L3",
+      "label": "AI Engineering",
+      "skills": [
+        "Prompt Engineering",
+        "Pydantic",
+        "FastAPI",
+        "Vector DBs (Qdrant)",
+        "REST",
+        "WebSockets"
+      ]
+    },
+    {
+      "layer": "L4",
+      "label": "Data & Distributed",
+      "skills": [
+        "Kafka",
+        "Spark",
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL"
+      ]
+    },
+    {
+      "layer": "L5",
+      "label": "Programming & Tools",
+      "skills": [
+        "Python",
+        "SQL",
+        "Docker",
+        "Git/GitHub"
+      ]
+    },
+    {
+      "layer": "L6",
+      "label": "Core CS",
+      "skills": [
+        "DSA",
+        "Problem solving"
+      ]
+    }
+  ]
+}

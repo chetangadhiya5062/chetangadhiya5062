@@ -1,0 +1,52 @@
+{
+  "profile": {
+    "name": "Chetan Gadhiya",
+    "bio": "AI Engineer · GenAI & agentic systems built to run in production · LLMs · RAG · multi-agent · B.Tech CSE @ PDEU",
+    "twitter_username": "chetan_gadhiya7",
+    "blog": "https://chetangadhiya.vercel.app",
+    "location": "Gandhinagar, Gujarat, India",
+    "hireable": true
+  },
+  "repos": [
+    {
+      "repo": "chetangadhiya5062/open-env-nuclei",
+      "description": "OpenEnv data-cleaning environment: reproducible episodes, honest grading, baselines and a Llama 3 agent.",
+      "homepage": "https://chetangadhiya.vercel.app/projects/openenv",
+      "topics": ["ai-agent", "data-cleaning", "llm", "machine-learning", "openenv", "python", "reinforcement-learning", "fastapi", "docker", "pydantic"]
+    },
+    {
+      "repo": "chetangadhiya5062/autonomous_mail",
+      "description": "AetherMail: autonomous email agent. LangGraph + Gemini, RAG on Qdrant, Kafka to Spark pipeline.",
+      "homepage": "https://chetangadhiya.vercel.app/projects/aethermail",
+      "topics": ["ai-agent", "langgraph", "gemini", "rag", "qdrant", "kafka", "spark", "ollama", "postgresql", "llm"]
+    },
+    {
+      "repo": "chetangadhiya5062/NeuroFlow-AI",
+      "description": "Production-grade AI operating platform: LLM gateway, RAG runtime, agents, memory and workflows. Clean Architecture.",
+      "homepage": "https://chetangadhiya.vercel.app/projects/neuroflow-ai",
+      "topics": ["ai-platform", "llm", "rag", "ai-agents", "clean-architecture", "fastapi", "knowledge-graph", "workflow-engine", "python", "docker"]
+    },
+    {
+      "repo": "chetangadhiya5062/misinformation_ai",
+      "description": "Multi-agent fact-checking with CrewAI: claim extraction, live web research, verdicts with confidence and citations.",
+      "homepage": "https://chetangadhiya.vercel.app/projects/truth-ai",
+      "topics": ["crewai", "multi-agent", "fact-checking", "misinformation", "gemini", "fastapi", "pydantic", "llm", "nlp", "python"]
+    },
+    {
+      "repo": "chetangadhiya5062/chetan-portfolio",
+      "description": "Self-updating 'Forward Pass' portfolio: Next.js, WebGL, live GitHub/LeetCode/Medium activity, private admin.",
+      "homepage": "https://chetangadhiya.vercel.app",
+      "topics": ["nextjs", "portfolio", "webgl", "supabase", "vercel", "tailwindcss", "typescript", "react", "ai-engineer"]
+    }
+  ],
+  "archive": [
+    "Hand_Cricket_Game.py",
+    "NumberGuessingGame.py",
+    "Jay_Swaminarayan",
+    "Text-To-Speech.py",
+    "TelegramPhotoesDownLoader",
+    "ImageEnhancer.py",
+    "open-env-nuclei-submission",
+    "youtube_video-audio_downloader_Claude"
+  ]
+}
