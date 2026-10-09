@@ -30,7 +30,7 @@ function compactPath(cmds) {
   const rel = (x, y) => { const dx = x - px, dy = y - py; px = x; py = y; return `${dx} ${dy}`; };
   for (const c of cmds) {
     if (c.type === "M") { const x = q(c.x), y = q(c.y); out.push(`M${x} ${y}`); px = sx = x; py = sy = y; }
-    else if (c.type === "L") { const r = rel(q(c.x), q(c.y)); if (r !== "0 0") out.push(`l${r}`); }
+    else if (c.type === "L") { const x = q(c.x), y = q(c.y), dx = x - px, dy = y - py; px = x; py = y; if (dx && dy) out.push(`l${dx} ${dy}`); else if (dx) out.push(`h${dx}`); else if (dy) out.push(`v${dy}`); }
     else if (c.type === "Q") { const x0 = px, y0 = py, x = q(c.x), y = q(c.y); out.push(`q${q(c.x1) - x0} ${q(c.y1) - y0} ${x - x0} ${y - y0}`); px = x; py = y; }
     else if (c.type === "C") { const x0 = px, y0 = py; const x1 = q(c.x1), y1 = q(c.y1), x2 = q(c.x2), y2 = q(c.y2), x = q(c.x), y = q(c.y); out.push(`c${x1 - x0} ${y1 - y0} ${x2 - x0} ${y2 - y0} ${x - x0} ${y - y0}`); px = x; py = y; }
     else if (c.type === "Z") { out.push("z"); px = sx; py = sy; }
