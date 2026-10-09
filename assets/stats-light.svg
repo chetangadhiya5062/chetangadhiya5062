@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="t d">
+<title id="t">Training loop — live activity</title><desc id="d">Last 26 weeks: 124 GitHub contributions, 125 LeetCode submissions, 0 Medium articles, 0 posts. 222 contributions in 365 days; 233 LeetCode problems solved (82 easy, 110 medium, 41 hard); 34-day streak; 1 articles.</desc>
+<style>
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@keyframes shimmer{0%,100%{opacity:.15}50%{opacity:.9}}
+@keyframes dash{to{stroke-dashoffset:-24}}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+.shimmer{animation:shimmer 5s ease-in-out infinite}
+.shimmer2{animation:shimmer 5s ease-in-out 2.5s infinite}
+.flow{stroke-dasharray:4 8;animation:dash 2.2s linear infinite}
+.k{width:15px;height:15px;rx:3.5px}.l0{fill:#e6eaee}.l1{fill:#4d7c0f;fill-opacity:0.28}.l2{fill:#4d7c0f;fill-opacity:0.52}.l3{fill:#4d7c0f;fill-opacity:0.76}.l4{fill:#4d7c0f;fill-opacity:1}@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs><path id="mono30" d="M134 0l-105 0l0-182l22 0l0 162l83 0l0 20"/><path id="mono23" d="M124 0l-98 0l0-20l38 0l0-142l-38 0l0-20l98 0l0 20l-37 0l0 142l37 0l0 20"/><path id="mono53" d="M90 0l-30 0l-47-182l23 0l31 124q3 13 5 24q3 11 4 17q1-6 3-17q2-11 5-24l31-124l23 0l-48 182"/><path id="mono15" d="M130 0l-105 0l0-182l105 0l0 20l-83 0l0 57l74 0l0 20l-74 0l0 65l83 0l0 20"/><path id="mono149" d="M75-65q-9 0-15-5q-6-6-6-15q0-10 6-16q6-5 15-5q10 0 15 5q6 6 6 16q0 9-6 15q-5 5-15 5"/><path id="mono21" d="M76 3q-16 0-29-7q-12-6-18-18q-7-12-7-28l0-82q0-17 7-29q6-11 18-18q13-6 29-6q17 0 29 6q12 7 18 19q7 11 7 28l-23 0q0-16-8-24q-8-9-23-9q-15 0-23 9q-8 8-8 23l0 83q0 16 8 24q8 9 23 9q15 0 23-9q8-8 8-24l0-22l-37 0l0-21l60 0l0 43q0 16-7 28q-6 12-18 18q-12 7-29 7"/><path id="mono47" d="M86 0l-22 0l0-162l-50 0l0-21l122 0l0 21l-50 0l0 162"/><path id="mono22" d="M46 0l-23 0l0-182l23 0l0 78l58 0l0-78l23 0l0 182l-23 0l0-84l-58 0l0 84"/><path id="mono48" d="M75 3q-25 0-39-15q-13-14-13-38l0-132l22 0l0 132q0 15 7 24q8 9 23 9q15 0 23-9q7-9 7-24l0-132l23 0l0 132q0 25-14 39q-13 14-39 14"/><path id="mono10" d="M79 0l-56 0l0-182l52 0q25 0 39 12q14 13 14 35q0 12-5 22q-5 9-15 14q-3 2-7 3q5 1 9 3q11 6 17 17q6 11 6 25q0 16-7 27q-6 12-18 18q-12 6-29 6M45-85l0 65l31 0q16 0 25-9q9-8 9-22q0-15-9-25q-9-9-25-9l-31 0M45-162l0 57l30 0q14 0 23-7q8-8 8-21q0-14-8-21q-8-8-23-8l-30 0"/><path id="mono250" d="M86-24l-22 0l0-48l-48 0l0-20l48 0l0-49l22 0l0 49l48 0l0 20l-48 0l0 48"/><path id="mono11" d="M76 3q-16 0-29-7q-12-6-18-18q-7-12-7-28l0-82q0-17 7-29q6-11 18-18q13-6 29-6q17 0 29 6q12 7 18 19q7 11 7 28l-23 0q0-16-8-24q-8-9-23-9q-15 0-23 9q-8 8-8 23l0 83q0 16 8 24q8 8 23 8q15 0 23-8q8-8 8-24l23 0q0 16-7 28q-6 12-18 18q-12 7-29 7"/><path id="mono34" d="M75 3q-16 0-28-7q-12-6-19-18q-6-12-6-28l0-82q0-17 6-29q7-11 19-18q12-6 28-6q17 0 28 6q12 7 19 18q6 12 6 28l0 83q0 16-6 28q-7 12-19 18q-11 7-28 7M75-18q15 0 23-8q8-8 8-24l0-82q0-16-8-24q-8-9-23-9q-14 0-22 9q-8 8-8 24l0 82q0 16 8 24q8 8 22 8"/><path id="mono13" d="M70 0l-47 0l0-182l47 0q18 0 31 6q13 7 20 19q7 13 7 29l0 73q0 17-7 29q-7 13-20 19q-13 7-31 7M46-162l0 142l24 0q17 0 26-9q10-9 10-26l0-73q0-16-10-25q-9-9-26-9l-24 0"/><path id="mono31" d="M41 0l-22 0l0-182l30 0l19 59q2 8 5 15q2 8 3 13q1-5 3-13q2-7 5-16l18-58l29 0l0 182l-22 0l0-66q0-11 1-25q1-14 2-29q1-14 2-28q2-13 3-23l-30 91l-23 0l-30-91q1 10 2 22q2 13 3 28q1 14 1 28q1 15 1 27l0 66"/><path id="mono42" d="M46 0l-23 0l0-182l59 0q17 0 29 6q13 7 20 19q7 12 7 28q0 17-7 29q-7 12-20 18q-12 7-29 7l-36 0l0 75M46-162l0 67l36 0q15 0 23-9q9-9 9-25q0-15-9-24q-8-9-23-9l-36 0"/><path id="mono46" d="M76 3q-18 0-31-6q-13-6-20-18q-7-11-7-26l23 0q0 13 9 21q9 8 26 8q16 0 25-7q9-8 9-22q0-11-6-19q-6-8-17-12l-25-7q-19-6-29-20q-10-13-10-31q0-15 7-26q6-11 18-17q12-6 29-6q24 0 38 13q15 14 15 36l-23 0q0-14-8-21q-8-8-23-8q-14 0-22 7q-8 7-8 20q0 11 6 19q6 8 17 12l25 8q18 6 28 19q10 14 10 33q0 15-7 26q-7 11-20 17q-12 7-29 7"/><path id="mono1" d="M36 0l-23 0l47-182l30 0l48 182l-23 0l-12-48l-55 0l-12 48M66-124l-14 57l46 0l-14-57q-4-16-6-26q-2-11-3-14q0 3-3 14q-2 10-6 26"/><path id="mono125" d="M132 0l-109 0l0-23l56-59q14-15 21-27q6-12 6-23q0-15-8-24q-9-9-23-9q-16 0-25 9q-9 9-9 25l-23 0q1-17 8-29q7-12 19-18q13-7 30-7q16 0 28 6q13 7 19 19q7 11 7 28q0 15-9 30q-8 16-27 35l-45 47l84 0l0 20"/><path id="mono129" d="M75 3q-17 0-30-8q-13-7-21-20q-7-14-7-31q0-14 4-27q4-13 12-26l45-73l25 0l-51 83l1 0q4-7 13-10q8-4 18-4q15 0 26 7q11 7 17 20q6 12 6 30q0 17-7 31q-7 13-20 20q-13 8-31 8M75-17q16 0 26-11q10-11 10-28q0-18-10-28q-10-11-26-11q-16 0-26 11q-9 10-9 28q0 17 9 28q10 11 26 11"/><path id="mono54" d="M56 0l-29 0l-21-182l22 0l14 135q0 5 1 11q0 6 0 11q1 5 1 9q0-4 1-9q0-5 1-11q0-6 1-11l17-135l23 0l16 135q1 5 1 11q1 6 1 11q1 5 1 9l1-9q0-5 1-11q1-6 1-11l14-135l21 0l-22 182l-28 0l-15-137q-1-6-2-12q0-5-1-10q0-5 0-8q-1 3-1 8q-1 5-1 10q-1 6-2 12l-16 137"/><path id="mono29" d="M46 0l-23 0l0-182l23 0l0 78l27 0l40-78l25 0l-46 87l48 95l-26 0l-42-84l-26 0l0 84"/><path id="mono45" d="M46 0l-23 0l0-182l57 0q16 0 28 6q12 7 19 19q7 11 7 27q0 19-10 32q-9 13-26 18l38 80l-26 0l-35-77l-29 0l0 77M46-162l0 64l34 0q14 0 22-9q9-8 9-23q0-15-9-23q-8-9-22-9l-34 0"/><path id="mono56" d="M86 0l-22 0l0-68l-55-114l23 0l36 75q3 6 5 10q2 5 2 7q1-2 3-7q2-4 5-10l35-75l23 0l-55 114l0 68"/><path id="mono28" d="M68 3q-27 0-42-15q-15-15-15-40l23 0q0 16 9 25q9 10 25 10q16 0 24-10q9-9 9-25l0-110l-43 0l0-20l66 0l0 130q0 25-15 40q-15 15-41 15"/><path id="mono32" d="M44 0l-21 0l0-182l30 0l55 156q0-6-1-16q0-9-1-19q0-10 0-19l0-102l22 0l0 182l-30 0l-56-156q1 6 1 15q1 9 1 19q0 10 0 20l0 102"/><path id="mono90" d="M138 0l-44 0q-12 0-21-5q-9-4-14-13q-5-9-5-21l0-123l-46 0l0-20l68 0l0 143q0 9 5 14q5 5 13 5l44 0l0 20"/><path id="mono72" d="M75 3q-16 0-28-7q-12-6-19-18q-7-12-7-28l0-37q0-16 7-28q7-12 19-18q12-7 28-7q16 0 28 7q13 6 19 18q7 12 7 28l0 24l-86 0l0 13q0 16 9 25q8 9 23 9q13 0 21-5q8-5 10-14l22 0q-2 17-17 27q-14 11-36 11M43-80l64 0l0-7q0-17-8-25q-8-9-24-9q-15 0-23 9q-9 8-9 25l0 7"/><path id="mono106" d="M81 2l-10 0q-14 0-25-4q-10-5-16-13q-6-8-7-19l22 0q2 8 8 12q7 4 18 4l10 0q14 0 20-5q7-6 7-15q0-8-6-14q-6-5-18-6l-18-3q-20-4-30-13q-10-9-10-27q0-18 12-28q11-10 35-10l9 0q20 0 32 9q12 9 15 25l-23 0q-1-7-7-11q-6-3-17-3l-9 0q-13 0-19 4q-6 5-6 15q0 8 5 12q5 4 16 6l19 3q22 3 32 13q10 9 10 27q0 19-12 30q-12 11-37 11"/><path id="mono91" d="M37 0l-20 0l0-137l19 0l0 16l2 0q1-7 6-12q6-7 16-7q12 0 18 9q3 4 5 10l1 0q1-7 6-12q6-7 16-7q13 0 20 10q8 10 8 26l0 104l-21 0l0-105q0-8-4-13q-3-5-10-5q-7 0-11 5q-4 5-4 13l0 105l-18 0l0-105q0-8-4-13q-4-5-11-5q-7 0-10 5q-4 5-4 13l0 105"/><path id="mono94" d="M75 2q-16 0-28-6q-12-6-19-18q-7-12-7-28l0-37q0-16 7-28q7-12 19-18q12-6 28-6q17 0 29 6q12 6 18 18q7 12 7 28l0 37q0 16-7 28q-6 12-18 18q-12 6-29 6M75-18q15 0 23-8q8-8 8-24l0-37q0-16-8-24q-8-8-23-8q-14 0-23 8q-8 8-8 24l0 37q0 16 8 24q9 8 23 8"/><path id="mono105" d="M50 0l-22 0l0-137l22 0l0 24q2-9 8-16q9-11 28-11q22 0 35 14q13 13 13 37l0 8l-23 0l0-6q0-17-8-25q-8-9-22-9q-14 0-23 9q-8 9-8 25l0 87"/><path id="mono80" d="M139 0l-118 0l0-20l49 0l0-97l-42 0l0-20l65 0l0 117l46 0l0 20M79-162q-8 0-13-4q-5-5-5-12q0-7 5-12q5-4 13-4q8 0 13 4q5 5 5 12q0 7-5 12q-5 4-13 4"/><path id="mono108" d="M128 0l-38 0q-18 0-28-9q-9-10-9-27l0-81l-39 0l0-20l39 0l0-39l22 0l0 39l55 0l0 20l-55 0l0 81q0 16 15 16l38 0l0 20"/><path id="mono109" d="M75 3q-24 0-38-15q-14-14-14-38l0-87l22 0l0 87q0 16 8 24q8 9 22 9q14 0 22-9q8-8 8-24l0-87l23 0l0 87q0 24-15 38q-14 15-38 15"/><path id="mono67" d="M83 3q-17 0-27-10q-9-7-10-19l0 26l-23 0l0-182l23 0l0 40l-1 31l1 0q1-12 10-20q10-9 27-9q21 0 33 14q13 14 13 37l0 41q0 23-13 37q-12 14-33 14M76-17q14 0 22-8q8-9 8-25l0-37q0-16-8-25q-8-8-22-8q-14 0-22 8q-8 9-8 25l0 37q0 16 8 24q8 9 22 9"/><path id="mono124" d="M135 0l-112 0l0-20l49 0l0-144l-49 37l0-25l41-30l31 0l0 162l40 0l0 20"/><path id="mono127" d="M125 0l-22 0l0-40l-83 0l0-35l72-107l25 0l-74 112l0 10l60 0l0-45l22 0l0 105"/><path id="mono70" d="M67 3q-20 0-33-14q-13-14-13-37l0-41q0-23 13-37q12-14 33-14q17 0 27 9q9 8 10 20l1 0l0-31l0-40l22 0l0 182l-22 0l0-26l-1 0q-1 12-10 19q-10 10-27 10M75-17q14 0 22-9q8-8 8-24l0-37q0-16-8-25q-8-8-22-8q-15 0-23 8q-8 9-8 25l0 37q0 16 8 25q8 8 23 8"/><path id="mono128" d="M75 3q-23 0-37-12q-14-11-17-31l23 0q1 11 9 17q8 6 22 6q16 0 23-9q8-8 8-24l0-18q0-15-8-24q-7-8-23-8q-10 0-17 5q-7 5-10 14l-23 0l1-101l96 0l0 20l-74 0l-1 61l1 0q2-7 9-12q9-7 25-7q22 0 34 14q13 14 13 38l0 18q0 24-14 38q-15 15-40 15"/><path id="mono123" d="M75 3q-17 0-29-7q-12-7-19-19q-7-12-7-28l0-80q0-17 7-29q7-12 19-18q12-7 29-7q17 0 29 7q13 6 19 18q7 12 7 29l0 80q0 16-7 28q-6 12-19 19q-12 7-29 7M75-17q15 0 24-9q9-10 9-25l0-80q0-15-9-25q-9-10-24-10q-15 0-24 10q-9 10-9 25l0 80q0 15 9 25q9 9 24 9M75-76q-7 0-11-5q-4-4-4-11q0-7 4-11q4-4 11-4q7 0 11 4q4 4 4 11q0 7-4 11q-4 5-11 5"/><path id="displayB58" d="M138 0l-127 0l0-21q0-18 6-30q6-12 17-20q11-8 28-13l17-5q9-3 15-8q6-4 10-10q3-7 3-15l0-1q0-12-8-20q-9-7-24-7q-14 0-23 8q-9 8-9 23l0 4l-32 0l0-4q0-19 9-32q8-13 23-20q14-7 32-7q18 0 33 6q14 7 23 20q8 12 8 29l0 2q0 17-7 29q-7 11-18 19q-12 7-27 12l-16 5q-11 3-17 7q-6 4-8 8q-3 5-3 12l0 1l95 0l0 28"/><path id="mono68" d="M76 3q-16 0-29-7q-12-6-19-18q-7-12-7-28l0-37q0-17 7-29q7-11 19-18q13-6 29-6q24 0 38 13q15 13 16 35l-23 0q-1-14-9-21q-8-7-22-7q-15 0-23 8q-9 9-9 24l0 38q0 16 9 24q8 9 23 9q14 0 22-8q8-7 9-20l23 0q-1 22-16 35q-14 13-38 13"/><path id="mono92" d="M46 0l-23 0l0-137l23 0l0 26q1-13 9-20q10-9 27-9q21 0 33 13q13 13 13 35l0 92l-23 0l0-90q0-15-8-23q-8-7-21-7q-14 0-22 8q-8 9-8 25l0 87"/><path id="mono126" d="M72 3q-16 0-29-7q-12-7-19-18q-6-12-6-28l22 0q0 15 9 24q8 9 24 9q15 0 24-9q8-9 8-24l0-13q0-15-8-24q-9-8-24-8l-19 0l0-23l45-44l-74 0l0-20l97 0l0 22l-46 45q23 0 37 14q15 14 15 38l0 13q0 16-7 28q-7 11-20 18q-12 7-29 7"/><path id="mono59" d="M63 3q-22 0-34-12q-13-11-13-30q0-19 13-30q12-11 34-11l42 0l0-14q0-12-8-19q-7-7-21-7q-12 0-21 5q-8 5-9 14l-23 0q3-18 17-28q15-11 36-11q24 0 38 12q14 13 14 34l0 94l-22 0l0-26l-1 0q-1 12-11 20q-12 9-31 9M69-15q16 0 26-8q10-8 10-21l0-19l-42 0q-11 0-18 6q-6 6-6 17q0 12 8 18q8 7 22 7"/><path id="mono117" d="M69 45l-24 0l20-53l-51-129l25 0l32 85q2 4 3 10q2 6 3 10q1-4 2-10q2-6 3-10l30-85l24 0l-67 182"/><path id="displayB59" d="M76 4q-20 0-35-7q-15-7-24-21q-8-13-8-31l0-4l32 0l0 3q0 14 9 23q10 8 26 8q16 0 25-8q9-7 9-19l0-3q0-8-4-13q-4-5-11-7q-6-2-15-2l-35 0l0-35l57-30l0-4l-89 0l0-29l124 0l0 43l-53 28l0 4l10 0q11 0 22 4q12 5 19 15q7 10 7 26l0 3q0 17-8 29q-8 13-23 20q-15 7-35 7"/><path id="mono102" d="M46 45l-23 0l0-182l23 0l0 26q1-12 10-20q10-9 27-9q21 0 33 14q13 13 13 37l0 40q0 16-6 28q-5 11-16 17q-10 7-24 7q-16 0-27-10q-9-7-10-19l-1 0l1 31l0 40M76-17q14 0 22-8q8-9 8-25l0-37q0-16-8-25q-8-8-22-8q-14 0-22 8q-8 9-8 25l0 37q0 16 8 24q8 9 22 9"/><path id="mono114" d="M90 0l-30 0l-46-137l23 0l30 92q3 8 5 16q3 8 4 12q1-4 3-12q2-8 5-16l30-92l22 0l-46 137"/><path id="mono131" d="M75 3q-17 0-29-6q-12-6-19-17q-7-11-7-26q0-16 9-28q9-11 27-20q-15-9-23-19q-9-11-9-27q0-14 6-24q6-10 18-16q11-5 27-5q16 0 27 5q12 6 18 16q6 10 6 24q0 16-9 27q-7 10-23 18q19 9 27 21q9 12 9 28q0 22-15 35q-15 14-40 14M75-17q15 0 24-8q9-8 9-21q0-11-6-20q-5-9-16-14l-11-5l-11 5q-11 5-16 14q-6 9-6 19q0 14 9 22q9 8 24 8M68-107l7 3l6-3q11-5 17-13q6-9 6-19q0-12-8-19q-7-7-21-7q-13 0-21 7q-8 7-8 19q0 10 6 19q6 8 16 13"/><path id="displayB60" d="M125 0l-32 0l0-35l-86 0l0-37l60-103l58 0l0 111l29 0l0 29l-29 0l0 35M37-68l0 4l56 0l0-90l-5 0l-51 86"/><path id="mono89" d="M46 0l-22 0l0-182l22 0l0 101l27 0l40-56l26 0l-47 65l47 72l-26 0l-40-61l-27 0l0 61"/><path id="displayB57" d="M97 0l-32 0l0-151l-5 0l-23 55l-34 0l36-79l58 0l0 175"/></defs>
+<rect x="0.5" y="0.5" width="1199" height="329" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+<circle class="pulse" cx="52" cy="44" r="3.5" fill="#4d7c0f"/>
+<g fill="#59636e" transform="translate(66 48) scale(0.044)"><use href="#mono30" x="0"/><use href="#mono23" x="182"/><use href="#mono53" x="364"/><use href="#mono15" x="545"/><use href="#mono149" x="909"/><use href="#mono21" x="1273"/><use href="#mono23" x="1455"/><use href="#mono47" x="1636"/><use href="#mono22" x="1818"/><use href="#mono48" x="2000"/><use href="#mono10" x="2182"/><use href="#mono250" x="2545"/><use href="#mono30" x="2909"/><use href="#mono15" x="3091"/><use href="#mono15" x="3273"/><use href="#mono47" x="3455"/><use href="#mono11" x="3636"/><use href="#mono34" x="3818"/><use href="#mono13" x="4000"/><use href="#mono15" x="4182"/><use href="#mono250" x="4545"/><use href="#mono31" x="4909"/><use href="#mono15" x="5091"/><use href="#mono13" x="5273"/><use href="#mono23" x="5455"/><use href="#mono48" x="5636"/><use href="#mono31" x="5818"/><use href="#mono250" x="6182"/><use href="#mono42" x="6545"/><use href="#mono34" x="6727"/><use href="#mono46" x="6909"/><use href="#mono47" x="7091"/><use href="#mono46" x="7273"/><use href="#mono149" x="7636"/><use href="#mono30" x="8000"/><use href="#mono1" x="8182"/><use href="#mono46" x="8364"/><use href="#mono47" x="8545"/><use href="#mono125" x="8909"/><use href="#mono129" x="9091"/><use href="#mono54" x="9455"/><use href="#mono15" x="9636"/><use href="#mono15" x="9818"/><use href="#mono29" x="10000"/><use href="#mono46" x="10182"/></g>
+<rect class="k l2" x="48" y="206"/>
+<g fill="#59636e" transform="translate(48 80) scale(0.04)"><use href="#mono1" x="0"/><use href="#mono42" x="175"/><use href="#mono45" x="350"/></g>
+<rect class="k l2" x="67" y="92"/>
+<rect class="k l1" x="67" y="111"/>
+<rect class="k l1" x="67" y="130"/>
+<rect class="k l2" x="67" y="149"/>
+<rect class="k l4" x="67" y="168"/>
+<rect class="k l2" x="67" y="187"/>
+<rect class="k l1" x="67" y="206"/>
+<rect class="k l1" x="86" y="92"/>
+<rect class="k l2" x="86" y="111"/>
+<rect class="k l1" x="86" y="130"/>
+<rect class="k l1" x="86" y="149"/>
+<rect class="k l2" x="86" y="168"/>
+<rect class="k l1" x="86" y="187"/>
+<rect class="k l1" x="86" y="206"/>
+<rect class="k l1" x="105" y="92"/>
+<rect class="k l1" x="105" y="111"/>
+<rect class="k l1" x="105" y="130"/>
+<rect class="k l1" x="105" y="149"/>
+<rect class="k l0" x="105" y="168"/>
+<rect class="k l1" x="105" y="187"/>
+<g fill="#59636e" transform="translate(105 80) scale(0.04)"><use href="#mono31" x="0"/><use href="#mono1" x="175"/><use href="#mono56" x="350"/></g>
+<rect class="k l1" x="105" y="206"/>
+<rect class="k l0" x="124" y="92"/>
+<rect class="k l1" x="124" y="111"/>
+<rect class="k l1" x="124" y="130"/>
+<rect class="k l0" x="124" y="149"/>
+<rect class="k l1" x="124" y="168"/>
+<rect class="k l0" x="124" y="187"/>
+<rect class="k l1" x="124" y="206"/>
+<rect class="k l0" x="143" y="92"/>
+<rect class="k l0" x="143" y="111"/>
+<rect class="k l0" x="143" y="130"/>
+<rect class="k l2" x="143" y="149"/>
+<rect class="k l1" x="143" y="168"/>
+<rect class="k l1" x="143" y="187"/>
+<rect class="k l2" x="143" y="206"/>
+<rect class="k l1" x="162" y="92"/>
+<rect class="k l1" x="162" y="111"/>
+<rect class="k l1" x="162" y="130"/>
+<rect class="k l1" x="162" y="149"/>
+<rect class="k l1" x="162" y="168"/>
+<rect class="k l1" x="162" y="187"/>
+<rect class="k l0" x="162" y="206"/>
+<rect class="k l0" x="181" y="92"/>
+<rect class="k l2" x="181" y="111"/>
+<rect class="k l1" x="181" y="130"/>
+<rect class="k l1" x="181" y="149"/>
+<rect class="k l1" x="181" y="168"/>
+<rect class="k l2" x="181" y="187"/>
+<rect class="k l1" x="181" y="206"/>
+<rect class="k l0" x="200" y="92"/>
+<rect class="k l1" x="200" y="111"/>
+<g fill="#59636e" transform="translate(200 80) scale(0.04)"><use href="#mono28" x="0"/><use href="#mono48" x="175"/><use href="#mono32" x="350"/></g>
+<rect class="k l1" x="200" y="130"/>
+<rect class="k l1" x="200" y="149"/>
+<rect class="k l1" x="200" y="168"/>
+<rect class="k l1" x="200" y="187"/>
+<rect class="k l1" x="200" y="206"/>
+<rect class="k l2" x="219" y="92"/>
+<rect class="k l0" x="219" y="111"/>
+<rect class="k l1" x="219" y="130"/>
+<rect class="k l0" x="219" y="149"/>
+<rect class="k l1" x="219" y="168"/>
+<rect class="k l0" x="219" y="187"/>
+<rect class="k l1" x="219" y="206"/>
+<rect class="k l0" x="238" y="92"/>
+<rect class="k l0" x="238" y="111"/>
+<rect class="k l0" x="238" y="130"/>
+<rect class="k l2" x="238" y="149"/>
+<rect class="k l0" x="238" y="168"/>
+<rect class="k l0" x="238" y="187"/>
+<rect class="k l0" x="238" y="206"/>
+<rect class="k l0" x="257" y="92"/>
+<rect class="k l3" x="257" y="111"/>
+<rect class="k l0" x="257" y="130"/>
+<rect class="k l1" x="257" y="149"/>
+<rect class="k l0" x="257" y="168"/>
+<rect class="k l0" x="257" y="187"/>
+<rect class="k l0" x="257" y="206"/>
+<rect class="k l0" x="276" y="92"/>
+<rect class="k l0" x="276" y="111"/>
+<rect class="k l0" x="276" y="130"/>
+<rect class="k l0" x="276" y="149"/>
+<g fill="#59636e" transform="translate(276 80) scale(0.04)"><use href="#mono28" x="0"/><use href="#mono48" x="175"/><use href="#mono30" x="350"/></g>
+<rect class="k l0" x="276" y="168"/>
+<rect class="k l0" x="276" y="187"/>
+<rect class="k l4" x="276" y="206"/>
+<rect class="k l0" x="295" y="92"/>
+<rect class="k l0" x="295" y="111"/>
+<rect class="k l0" x="295" y="130"/>
+<rect class="k l0" x="295" y="149"/>
+<rect class="k l0" x="295" y="168"/>
+<rect class="k l0" x="295" y="187"/>
+<rect class="k l0" x="295" y="206"/>
+<rect class="k l0" x="314" y="92"/>
+<rect class="k l0" x="314" y="111"/>
+<rect class="k l0" x="314" y="130"/>
+<rect class="k l0" x="314" y="149"/>
+<rect class="k l0" x="314" y="168"/>
+<rect class="k l1" x="314" y="187"/>
+<rect class="k l0" x="314" y="206"/>
+<rect class="k l0" x="333" y="92"/>
+<rect class="k l0" x="333" y="111"/>
+<rect class="k l0" x="333" y="130"/>
+<rect class="k l0" x="333" y="149"/>
+<rect class="k l0" x="333" y="168"/>
+<rect class="k l0" x="333" y="187"/>
+<rect class="k l4" x="333" y="206"/>
+<rect class="k l0" x="352" y="92"/>
+<rect class="k l0" x="352" y="111"/>
+<rect class="k l0" x="352" y="130"/>
+<rect class="k l0" x="352" y="149"/>
+<rect class="k l0" x="352" y="168"/>
+<rect class="k l0" x="352" y="187"/>
+<rect class="k l3" x="352" y="206"/>
+<g fill="#59636e" transform="translate(352 80) scale(0.04)"><use href="#mono1" x="0"/><use href="#mono48" x="175"/><use href="#mono21" x="350"/></g>
+<rect class="k l0" x="371" y="92"/>
+<rect class="k l2" x="371" y="111"/>
+<rect class="k l2" x="371" y="130"/>
+<rect class="k l3" x="371" y="149"/>
+<rect class="k l4" x="371" y="168"/>
+<rect class="k l2" x="371" y="187"/>
+<rect class="k l0" x="371" y="206"/>
+<rect class="k l0" x="390" y="92"/>
+<rect class="k l0" x="390" y="111"/>
+<rect class="k l0" x="390" y="130"/>
+<rect class="k l0" x="390" y="149"/>
+<rect class="k l0" x="390" y="168"/>
+<rect class="k l0" x="390" y="187"/>
+<rect class="k l0" x="390" y="206"/>
+<rect class="k l0" x="409" y="92"/>
+<rect class="k l0" x="409" y="111"/>
+<rect class="k l2" x="409" y="130"/>
+<rect class="k l0" x="409" y="149"/>
+<rect class="k l2" x="409" y="168"/>
+<rect class="k l0" x="409" y="187"/>
+<rect class="k l1" x="409" y="206"/>
+<rect class="k l0" x="428" y="92"/>
+<rect class="k l1" x="428" y="111"/>
+<rect class="k l2" x="428" y="130"/>
+<rect class="k l0" x="428" y="149"/>
+<rect class="k l0" x="428" y="168"/>
+<rect class="k l0" x="428" y="187"/>
+<rect class="k l0" x="428" y="206"/>
+<rect class="k l0" x="447" y="92"/>
+<rect class="k l0" x="447" y="111"/>
+<rect class="k l0" x="447" y="130"/>
+<g fill="#59636e" transform="translate(447 80) scale(0.04)"><use href="#mono46" x="0"/><use href="#mono15" x="175"/><use href="#mono42" x="350"/></g>
+<rect class="k l0" x="447" y="149"/>
+<rect class="k l0" x="447" y="168"/>
+<rect class="k l0" x="447" y="187"/>
+<rect class="k l0" x="447" y="206"/>
+<rect class="k l0" x="466" y="92"/>
+<rect class="k l0" x="466" y="111"/>
+<rect class="k l0" x="466" y="130"/>
+<rect class="k l2" x="466" y="149"/>
+<rect class="k l0" x="466" y="168"/>
+<rect class="k l0" x="466" y="187"/>
+<rect class="k l0" x="466" y="206"/>
+<rect class="k l0" x="485" y="92"/>
+<rect class="k l0" x="485" y="111"/>
+<rect class="k l0" x="485" y="130"/>
+<rect class="k l0" x="485" y="149"/>
+<rect class="k l0" x="485" y="168"/>
+<rect class="k l0" x="485" y="187"/>
+<rect class="k l0" x="485" y="206"/>
+<rect class="k l0" x="504" y="92"/>
+<rect class="k l0" x="504" y="111"/>
+<rect class="k l0" x="504" y="130"/>
+<rect class="k l0" x="504" y="149"/>
+<rect class="k l0" x="504" y="168"/>
+<rect class="k l0" x="504" y="187"/>
+<rect class="k l0" x="504" y="206"/>
+<rect class="k l0" x="523" y="92"/>
+<rect class="k l0" x="523" y="111"/>
+<rect class="k l0" x="523" y="130"/>
+<rect class="k l0" x="523" y="149"/>
+<rect class="k l0" x="523" y="168"/>
+<g fill="#59636e" transform="translate(523 80) scale(0.04)"><use href="#mono34" x="0"/><use href="#mono11" x="175"/><use href="#mono47" x="350"/></g>
+<rect class="k l0" x="523" y="187"/>
+<rect class="k l0" x="523" y="206"/>
+<rect class="k l0" x="542" y="92"/>
+<rect class="k l0" x="542" y="111"/>
+<rect class="k l0" x="542" y="130"/>
+<rect class="k l0" x="542" y="149"/>
+<rect class="k l4" x="542" y="168"/>
+<rect class="k l1" x="542" y="187"/>
+<g fill="#59636e" transform="translate(48 256) scale(0.04)"><use href="#mono90" x="0"/><use href="#mono72" x="150"/><use href="#mono106" x="300"/><use href="#mono106" x="450"/></g>
+<rect x="80" y="247" width="12" height="12" rx="3" fill="#e6eaee" />
+<rect x="97" y="247" width="12" height="12" rx="3" fill="#4d7c0f" fill-opacity="0.28"/>
+<rect x="114" y="247" width="12" height="12" rx="3" fill="#4d7c0f" fill-opacity="0.52"/>
+<rect x="131" y="247" width="12" height="12" rx="3" fill="#4d7c0f" fill-opacity="0.76"/>
+<rect x="148" y="247" width="12" height="12" rx="3" fill="#4d7c0f" fill-opacity="1"/>
+<g fill="#59636e" transform="translate(169 256) scale(0.04)"><use href="#mono91" x="0"/><use href="#mono94" x="150"/><use href="#mono105" x="300"/><use href="#mono72" x="450"/></g>
+<circle cx="235" cy="253" r="3.5" fill="#4d7c0f"/>
+<g fill="#59636e" transform="translate(244 256) scale(0.04)"><use href="#mono21" x="0"/><use href="#mono80" x="150"/><use href="#mono108" x="300"/><use href="#mono22" x="450"/><use href="#mono109" x="600"/><use href="#mono67" x="750"/><use href="#mono124" x="1050"/><use href="#mono125" x="1200"/><use href="#mono127" x="1350"/></g>
+<circle cx="323" cy="253" r="3.5" fill="#0e7490"/>
+<g fill="#59636e" transform="translate(332 256) scale(0.04)"><use href="#mono30" x="0"/><use href="#mono72" x="150"/><use href="#mono72" x="300"/><use href="#mono108" x="450"/><use href="#mono11" x="600"/><use href="#mono94" x="750"/><use href="#mono70" x="900"/><use href="#mono72" x="1050"/><use href="#mono124" x="1350"/><use href="#mono125" x="1500"/><use href="#mono128" x="1650"/></g>
+<circle cx="423" cy="253" r="3.5" fill="#1f2328"/>
+<g fill="#59636e" transform="translate(432 256) scale(0.04)"><use href="#mono31" x="0"/><use href="#mono72" x="150"/><use href="#mono70" x="300"/><use href="#mono80" x="450"/><use href="#mono109" x="600"/><use href="#mono91" x="750"/><use href="#mono123" x="1050"/></g>
+<circle cx="499" cy="253" r="3.5" fill="#59636e"/>
+<g fill="#59636e" transform="translate(508 256) scale(0.04)"><use href="#mono42" x="0"/><use href="#mono94" x="150"/><use href="#mono106" x="300"/><use href="#mono108" x="450"/><use href="#mono106" x="600"/><use href="#mono123" x="900"/></g>
+<g fill="#4d7c0f" transform="translate(625 86) scale(0.04)"><use href="#mono21" x="0"/><use href="#mono23" x="185"/><use href="#mono47" x="370"/><use href="#mono22" x="555"/><use href="#mono48" x="740"/><use href="#mono10" x="925"/></g>
+<g fill="#1f2328" transform="translate(625 138) scale(0.216)"><use href="#displayB58" x="0"/><use href="#displayB58" x="149"/><use href="#displayB58" x="297"/></g>
+<g fill="#59636e" transform="translate(625 158) scale(0.044)"><use href="#mono68" x="0"/><use href="#mono94" x="150"/><use href="#mono92" x="300"/><use href="#mono108" x="450"/><use href="#mono105" x="600"/><use href="#mono80" x="750"/><use href="#mono67" x="900"/><use href="#mono109" x="1050"/><use href="#mono108" x="1200"/><use href="#mono80" x="1350"/><use href="#mono94" x="1500"/><use href="#mono92" x="1650"/><use href="#mono106" x="1800"/><use href="#mono149" x="2100"/><use href="#mono126" x="2400"/><use href="#mono129" x="2550"/><use href="#mono128" x="2700"/><use href="#mono70" x="3000"/><use href="#mono59" x="3150"/><use href="#mono117" x="3300"/><use href="#mono106" x="3450"/></g>
+<g fill="#4d7c0f" transform="translate(888.5 86) scale(0.04)"><use href="#mono30" x="0"/><use href="#mono15" x="185"/><use href="#mono15" x="370"/><use href="#mono47" x="555"/><use href="#mono11" x="740"/><use href="#mono34" x="925"/><use href="#mono13" x="1110"/><use href="#mono15" x="1295"/></g>
+<g fill="#1f2328" transform="translate(888.5 138) scale(0.216)"><use href="#displayB58" x="0"/><use href="#displayB59" x="149"/><use href="#displayB59" x="301"/></g>
+<g fill="#59636e" transform="translate(888.5 158) scale(0.044)"><use href="#mono102" x="0"/><use href="#mono105" x="150"/><use href="#mono94" x="300"/><use href="#mono67" x="450"/><use href="#mono90" x="600"/><use href="#mono72" x="750"/><use href="#mono91" x="900"/><use href="#mono106" x="1050"/><use href="#mono106" x="1350"/><use href="#mono94" x="1500"/><use href="#mono90" x="1650"/><use href="#mono114" x="1800"/><use href="#mono72" x="1950"/><use href="#mono70" x="2100"/></g>
+<rect x="888.5" y="168" width="80.9" height="5" rx="2.5" fill="#0e7490" fill-opacity="0.55"/>
+<rect x="971.4" y="168" width="109.2" height="5" rx="2.5" fill="#4d7c0f" fill-opacity="0.75"/>
+<rect x="1082.6" y="168" width="39.4" height="5" rx="2.5" fill="#4d7c0f" fill-opacity="1"/>
+<g fill="#59636e" transform="translate(888.5 188) scale(0.04)"><use href="#mono131" x="0"/><use href="#mono125" x="150"/><use href="#mono15" x="450"/><use href="#mono149" x="750"/><use href="#mono124" x="1050"/><use href="#mono124" x="1200"/><use href="#mono123" x="1350"/><use href="#mono31" x="1650"/><use href="#mono149" x="1950"/><use href="#mono127" x="2250"/><use href="#mono124" x="2400"/><use href="#mono22" x="2700"/></g>
+<g fill="#4d7c0f" transform="translate(625 214) scale(0.04)"><use href="#mono30" x="0"/><use href="#mono15" x="185"/><use href="#mono15" x="370"/><use href="#mono47" x="555"/><use href="#mono11" x="740"/><use href="#mono34" x="925"/><use href="#mono13" x="1110"/><use href="#mono15" x="1295"/></g>
+<g fill="#1f2328" transform="translate(625 266) scale(0.216)"><use href="#displayB59" x="0"/><use href="#displayB60" x="152"/></g>
+<g fill="#59636e" transform="translate(625 286) scale(0.044)"><use href="#mono70" x="0"/><use href="#mono59" x="150"/><use href="#mono117" x="300"/><use href="#mono106" x="600"/><use href="#mono108" x="750"/><use href="#mono105" x="900"/><use href="#mono72" x="1050"/><use href="#mono59" x="1200"/><use href="#mono89" x="1350"/></g>
+<g fill="#4d7c0f" transform="translate(888.5 214) scale(0.04)"><use href="#mono31" x="0"/><use href="#mono15" x="185"/><use href="#mono13" x="370"/><use href="#mono23" x="555"/><use href="#mono48" x="740"/><use href="#mono31" x="925"/></g>
+<g fill="#1f2328" transform="translate(888.5 266) scale(0.216)"><use href="#displayB57" x="0"/></g>
+<g fill="#59636e" transform="translate(888.5 286) scale(0.044)"><use href="#mono59" x="0"/><use href="#mono105" x="150"/><use href="#mono108" x="300"/><use href="#mono80" x="450"/><use href="#mono68" x="600"/><use href="#mono90" x="750"/><use href="#mono72" x="900"/></g>
+<path d="M593,84 V294" stroke="#d0d7de" stroke-width="1"/>
+</svg>
