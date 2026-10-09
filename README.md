@@ -50,14 +50,12 @@ I engineer AI systems designed to run in production, not just perform well in a 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
-  <img alt="Live activity: 222 GitHub contributions in 365 days, 233 LeetCode problems solved, 34-day streak, 1 Medium articles, and a unified 26-week heatmap." src="assets/stats-dark.svg" width="100%">
+  <img alt="Live activity: 0 GitHub contributions in 365 days, 233 LeetCode problems solved, 34-day streak, 1 Medium articles, and a unified 26-week heatmap." src="assets/stats-dark.svg" width="100%">
 </picture>
 
 ## Output logits
 
 <!-- FEED:START -->
-- `github` · 2026-10-09 · [chetan-portfolio: Merge pull request #1 from chetangadhiya5062/v2](https://github.com/chetangadhiya5062/chetan-portfolio/commit/5b5f0e80969781cff85643ee74135ec19a8e7b58)
-- `github` · 2026-10-08 · [Youtube-Clip-Downloader: docs: v3 README, screenshots and styled spin boxes](https://github.com/ChetanGadhiya017/Youtube-Clip-Downloader/commit/16a32036d5b859db8e2606887630110f4d555b2f)
 - `medium` · 2025-04-22 · [When Tech Meets Laziness: Are We Losing the Drive to Do Things Ourselves?](https://medium.com/@ChetanGadhiy017/when-tech-meets-laziness-are-we-losing-the-drive-to-do-things-ourselves-e019bfca4783)
 <!-- FEED:END -->
 
