@@ -50,14 +50,14 @@ I engineer AI systems designed to run in production, not just perform well in a 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
-  <img alt="Live activity: 290 GitHub contributions in 365 days, 233 LeetCode problems solved, 34-day streak, 1 Medium articles, and a unified 26-week heatmap." src="assets/stats-dark.svg" width="100%">
+  <img alt="Live activity: 298 GitHub contributions in 365 days, 233 LeetCode problems solved, 34-day streak, 1 Medium articles, and a unified 26-week heatmap." src="assets/stats-dark.svg" width="100%">
 </picture>
 
 ## Output logits
 
 <!-- FEED:START -->
-- `github` · 2026-10-09 · [chetan-portfolio: Merge pull request #5 from chetangadhiya5062/docs/profile-animation-d…](https://github.com/chetangadhiya5062/chetan-portfolio/commit/621596352a9976e79b298bbc8becdaa79861c072)
-- `github` · 2026-10-09 · [chetan-portfolio: docs: animation pass decisions for the GitHub profile](https://github.com/chetangadhiya5062/chetan-portfolio/commit/4e55aafa2b5d61293d63f889ca1803ad8a6310c7)
+- `github` · 2026-10-10 · [open-env-nuclei: Merge pull request #9 from chetangadhiya5062/v3](https://github.com/chetangadhiya5062/open-env-nuclei/commit/18874dadf580278afd132c09aa83eb1cbceba878)
+- `github` · 2026-10-10 · [open-env-nuclei: docs: refresh README benchmark table, learning curve, and phase notes…](https://github.com/chetangadhiya5062/open-env-nuclei/commit/bb1bf7a6f4d68bb80c6440a0bd81f35ef23481dc)
 - `medium` · 2025-04-22 · [When Tech Meets Laziness: Are We Losing the Drive to Do Things Ourselves?](https://medium.com/@ChetanGadhiy017/when-tech-meets-laziness-are-we-losing-the-drive-to-do-things-ourselves-e019bfca4783)
 <!-- FEED:END -->
 
