@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="t d">
-<title id="t">Training loop — live activity</title><desc id="d">Last 26 weeks: 202 GitHub contributions, 112 LeetCode submissions, 1 Medium articles, 0 posts. 335 contributions in 365 days; 233 LeetCode problems solved (82 easy, 110 medium, 41 hard); 34-day streak; 2 articles.</desc>
+<title id="t">Training loop — live activity</title><desc id="d">Last 26 weeks: 200 GitHub contributions, 111 LeetCode submissions, 1 Medium articles, 0 posts. 335 contributions in 365 days; 233 LeetCode problems solved (82 easy, 110 medium, 41 hard); 34-day streak; 2 articles.</desc>
 <style>
 @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
 @keyframes twinkle{0%,100%{opacity:1}50%{opacity:.25}}
@@ -40,9 +40,8 @@
 <circle class="pulse" cx="52" cy="44" r="3.5" fill="#c6ff3d"/>
 <g fill="#8b93a7" transform="translate(66 48) scale(0.044)"><use href="#mono30" x="0"/><use href="#mono23" x="182"/><use href="#mono53" x="364"/><use href="#mono15" x="545"/><use href="#mono149" x="909"/><use href="#mono21" x="1273"/><use href="#mono23" x="1455"/><use href="#mono47" x="1636"/><use href="#mono22" x="1818"/><use href="#mono48" x="2000"/><use href="#mono10" x="2182"/><use href="#mono250" x="2545"/><use href="#mono30" x="2909"/><use href="#mono15" x="3091"/><use href="#mono15" x="3273"/><use href="#mono47" x="3455"/><use href="#mono11" x="3636"/><use href="#mono34" x="3818"/><use href="#mono13" x="4000"/><use href="#mono15" x="4182"/><use href="#mono250" x="4545"/><use href="#mono31" x="4909"/><use href="#mono15" x="5091"/><use href="#mono13" x="5273"/><use href="#mono23" x="5455"/><use href="#mono48" x="5636"/><use href="#mono31" x="5818"/><use href="#mono250" x="6182"/><use href="#mono42" x="6545"/><use href="#mono34" x="6727"/><use href="#mono46" x="6909"/><use href="#mono47" x="7091"/><use href="#mono46" x="7273"/><use href="#mono149" x="7636"/><use href="#mono30" x="8000"/><use href="#mono1" x="8182"/><use href="#mono46" x="8364"/><use href="#mono47" x="8545"/><use href="#mono125" x="8909"/><use href="#mono129" x="9091"/><use href="#mono54" x="9455"/><use href="#mono15" x="9636"/><use href="#mono15" x="9818"/><use href="#mono29" x="10000"/><use href="#mono46" x="10182"/></g>
 <g class="pop" style="--i:0.0;--d:.3s">
-<rect class="k l2" x="48" y="168"/>
-<g fill="#8b93a7" transform="translate(48 80) scale(0.04)"><use href="#mono1" x="0"/><use href="#mono42" x="175"/><use href="#mono45" x="350"/></g>
 <rect class="k l1" x="48" y="187"/>
+<g fill="#8b93a7" transform="translate(48 80) scale(0.04)"><use href="#mono1" x="0"/><use href="#mono42" x="175"/><use href="#mono45" x="350"/></g>
 <rect class="k l1" x="48" y="206"/>
 </g>
 <g class="pop" style="--i:0.4;--d:.3s">
@@ -280,6 +279,7 @@
 <rect class="k l1" x="542" y="111"/>
 <rect class="k l0" x="542" y="130"/>
 <rect class="k l1" x="542" y="149"/>
+<rect class="k l0" x="542" y="168"/>
 </g>
 <g clip-path="url(#hmclip)"><rect class="scan" style="--w:513px" x="44" y="88" width="70" height="137" fill="url(#scanfade)"/></g>
 <g fill="#8b93a7" transform="translate(48 256) scale(0.04)"><use href="#mono90" x="0"/><use href="#mono72" x="150"/><use href="#mono106" x="300"/><use href="#mono106" x="450"/></g>
@@ -290,9 +290,9 @@
 <rect x="148" y="247" width="12" height="12" rx="3" fill="#c6ff3d" fill-opacity="1"/>
 <g fill="#8b93a7" transform="translate(169 256) scale(0.04)"><use href="#mono91" x="0"/><use href="#mono94" x="150"/><use href="#mono105" x="300"/><use href="#mono72" x="450"/></g>
 <circle cx="235" cy="253" r="3.5" fill="#c6ff3d"/>
-<g fill="#8b93a7" transform="translate(244 256) scale(0.04)"><use href="#mono21" x="0"/><use href="#mono80" x="150"/><use href="#mono108" x="300"/><use href="#mono22" x="450"/><use href="#mono109" x="600"/><use href="#mono67" x="750"/><use href="#mono125" x="1050"/><use href="#mono123" x="1200"/><use href="#mono125" x="1350"/></g>
+<g fill="#8b93a7" transform="translate(244 256) scale(0.04)"><use href="#mono21" x="0"/><use href="#mono80" x="150"/><use href="#mono108" x="300"/><use href="#mono22" x="450"/><use href="#mono109" x="600"/><use href="#mono67" x="750"/><use href="#mono125" x="1050"/><use href="#mono123" x="1200"/><use href="#mono123" x="1350"/></g>
 <circle cx="323" cy="253" r="3.5" fill="#3de0ff"/>
-<g fill="#8b93a7" transform="translate(332 256) scale(0.04)"><use href="#mono30" x="0"/><use href="#mono72" x="150"/><use href="#mono72" x="300"/><use href="#mono108" x="450"/><use href="#mono11" x="600"/><use href="#mono94" x="750"/><use href="#mono70" x="900"/><use href="#mono72" x="1050"/><use href="#mono124" x="1350"/><use href="#mono124" x="1500"/><use href="#mono125" x="1650"/></g>
+<g fill="#8b93a7" transform="translate(332 256) scale(0.04)"><use href="#mono30" x="0"/><use href="#mono72" x="150"/><use href="#mono72" x="300"/><use href="#mono108" x="450"/><use href="#mono11" x="600"/><use href="#mono94" x="750"/><use href="#mono70" x="900"/><use href="#mono72" x="1050"/><use href="#mono124" x="1350"/><use href="#mono124" x="1500"/><use href="#mono124" x="1650"/></g>
 <circle cx="423" cy="253" r="3.5" fill="#e8ecf3"/>
 <g fill="#8b93a7" transform="translate(432 256) scale(0.04)"><use href="#mono31" x="0"/><use href="#mono72" x="150"/><use href="#mono70" x="300"/><use href="#mono80" x="450"/><use href="#mono109" x="600"/><use href="#mono91" x="750"/><use href="#mono124" x="1050"/></g>
 <circle cx="499" cy="253" r="3.5" fill="#8b93a7"/>
