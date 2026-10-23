@@ -50,15 +50,15 @@ I engineer AI systems designed to run in production, not just perform well in a 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
-  <img alt="Live activity: 344 GitHub contributions in 365 days, 233 LeetCode problems solved, 34-day streak, 2 Medium articles, and a unified 26-week heatmap." src="assets/stats-dark.svg" width="100%">
+  <img alt="Live activity: 348 GitHub contributions in 365 days, 233 LeetCode problems solved, 34-day streak, 2 Medium articles, and a unified 26-week heatmap." src="assets/stats-dark.svg" width="100%">
 </picture>
 
 ## Output logits
 
 <!-- FEED:START -->
+- `github` · 2026-10-23 · [chetan-portfolio: Merge pull request #7 from chetangadhiya5062/agent-v1](https://github.com/chetangadhiya5062/chetan-portfolio/commit/5559079ddae3476c3e6c76a0d05a121a85b66835)
+- `github` · 2026-10-23 · [chetan-portfolio: update portfolio](https://github.com/chetangadhiya5062/chetan-portfolio/commit/a8f955b11b8c1fc7655a397d1dab0f9e2a315588)
 - `medium` · 2026-10-19 · [“The Schema as Contract: How to Design AI + Deterministic Systems That Don’t Lose Money”](https://medium.com/@ChetanGadhiy017/the-schema-as-contract-how-to-design-ai-deterministic-systems-that-dont-lose-money-8bd1ca73fb02)
-- `github` · 2026-10-10 · [open-env-nuclei: Merge pull request #10 from chetangadhiya5062/feat/llm-benchmark-results](https://github.com/chetangadhiya5062/open-env-nuclei/commit/de4f53ffe9880eea0ba15194e18186ea8731127c)
-- `github` · 2026-10-10 · [open-env-nuclei: feat: add Llama 3.1 8B benchmark results and error trace analysis](https://github.com/chetangadhiya5062/open-env-nuclei/commit/e3e5b27e0aedf23e2e6a02c11935a5a799dccef3)
 - `medium` · 2025-04-22 · [When Tech Meets Laziness: Are We Losing the Drive to Do Things Ourselves?](https://medium.com/@ChetanGadhiy017/when-tech-meets-laziness-are-we-losing-the-drive-to-do-things-ourselves-e019bfca4783)
 <!-- FEED:END -->
 
