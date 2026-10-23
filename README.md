@@ -50,14 +50,14 @@ I engineer AI systems designed to run in production, not just perform well in a 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stats-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/stats-light.svg">
-  <img alt="Live activity: 348 GitHub contributions in 365 days, 233 LeetCode problems solved, 34-day streak, 2 Medium articles, and a unified 26-week heatmap." src="assets/stats-dark.svg" width="100%">
+  <img alt="Live activity: 361 GitHub contributions in 365 days, 233 LeetCode problems solved, 34-day streak, 2 Medium articles, and a unified 26-week heatmap." src="assets/stats-dark.svg" width="100%">
 </picture>
 
 ## Output logits
 
 <!-- FEED:START -->
-- `github` · 2026-10-23 · [chetan-portfolio: Merge pull request #7 from chetangadhiya5062/agent-v1](https://github.com/chetangadhiya5062/chetan-portfolio/commit/5559079ddae3476c3e6c76a0d05a121a85b66835)
-- `github` · 2026-10-23 · [chetan-portfolio: update portfolio](https://github.com/chetangadhiya5062/chetan-portfolio/commit/a8f955b11b8c1fc7655a397d1dab0f9e2a315588)
+- `github` · 2026-10-23 · [chetan-portfolio: Merge pull request #11 from chetangadhiya5062/agent-v1](https://github.com/chetangadhiya5062/chetan-portfolio/commit/53aa28e33ed4a4b09a1bac5a27c6c14119502ebc)
+- `github` · 2026-10-23 · [chetan-portfolio: update portfolio](https://github.com/chetangadhiya5062/chetan-portfolio/commit/b830eb4bdf060f63b026b887380e6f90a878a02e)
 - `medium` · 2026-10-19 · [“The Schema as Contract: How to Design AI + Deterministic Systems That Don’t Lose Money”](https://medium.com/@ChetanGadhiy017/the-schema-as-contract-how-to-design-ai-deterministic-systems-that-dont-lose-money-8bd1ca73fb02)
 - `medium` · 2025-04-22 · [When Tech Meets Laziness: Are We Losing the Drive to Do Things Ourselves?](https://medium.com/@ChetanGadhiy017/when-tech-meets-laziness-are-we-losing-the-drive-to-do-things-ourselves-e019bfca4783)
 <!-- FEED:END -->
