@@ -72,4 +72,4 @@ I engineer AI systems designed to run in production, not just perform well in a 
 
 ---
 
-<sub>built as a forward pass · auto-updated 2026-10-28 · source → [chetangadhiya.vercel.app](https://chetangadhiya.vercel.app)</sub>
+<sub>built as a forward pass · auto-updated 2026-10-29 · source → [chetangadhiya.vercel.app](https://chetangadhiya.vercel.app)</sub>
